@@ -1,0 +1,19 @@
+.wholePage {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .skol { grid-area: 1 / 1 / 2 / 3; }
+  .tid { grid-area: 1 / 3 / 2 / 9; }
+  .weather { grid-area: 1 / 9 / 4 / 11; }
+  .senaste { grid-area: 4 / 9 / 5 / 11; }
+  .news { grid-area: 5 / 9 / 8 / 11; }
+  .mat { grid-area: 8 / 9 / 11 / 11; }
+  .calendergoogle { grid-area: 2 / 1 / 7 / 3; }
+  .fikaansvarig { grid-area: 7 / 1 / 8 / 3; }
+  .jsonfile { grid-area: 8 / 1 / 11 / 3; }
+  .mentorpunkter { grid-area: 2 / 3 / 3 / 9; }
+  .doc { grid-area: 3 / 3 / 11 / 9; }
