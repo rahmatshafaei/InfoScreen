@@ -25,21 +25,21 @@ function App() {
   }, []);
 
   return (
-    <div className="news">
-      <h3>Top Headline in Sweden</h3>
-      {article && (
-        <div className="article">
-          <div className="article-img">
-            <img src={article.urlToImage} alt={article.title} />
-          </div>
-          <div className="article-content">
+   <div className="news">
+    <h3>Top Headline in Sweden</h3>
+    {article && (
+    <div className="article">
+        <div className="article-img">
+            <img src={article.urlToImage} alt={article.title}/>
+        </div>
+        <div className="article-content">
             <h4>{article.title}</h4>
             <p className="article-description">{article.description}</p>
             <p className="article-date">{article.publishedAt}</p>
-          </div>
         </div>
-      )}
     </div>
+    )}
+</div>
   );
 }
 
